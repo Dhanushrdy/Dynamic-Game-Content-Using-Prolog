@@ -6,9 +6,9 @@ Official Download Page: SWI-Prolog Downloads
 
 Direct Links:
 
-Windows (64-bit): Download .exe
+Windows (64-bit): [Download .exe](https://www.swi-prolog.org/download/stable/bin/swipl-10.0.2-1.x64.exe.envelope)
 
-macOS (Intel/Apple Silicon): Download .dmg
+macOS (Intel/Apple Silicon): [Download .dmg](https://www.swi-prolog.org/download/stable/bin/swipl-10.0.2-1.fat.dmg)
 
 Linux: Use the terminal: sudo apt install swi-prolog
 
