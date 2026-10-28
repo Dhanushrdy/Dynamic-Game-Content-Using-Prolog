@@ -1,4 +1,4 @@
-# 🐉 Dynamic Game Content Using Prolog — Dragon Slayer
+# Dynamic Game Content Using Prolog — Dragon Slayer
 
 [![Language: Prolog](https://img.shields.io/badge/Language-Prolog-orange.svg)](https://www.swi-prolog.org/)
 [![Environment: SWI-Prolog](https://img.shields.io/badge/Environment-SWI--Prolog-blue.svg)](https://www.swi-prolog.org/)
@@ -9,22 +9,21 @@ An interactive, text-based dungeon crawler and RPG adventure implemented entirel
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [Dungeon Map](#-dungeon-map)
-- [Prerequisites & Installation](#-prerequisites--installation)
-- [How to Run the Game](#-how-to-run-the-game)
-- [Controls & Command Reference](#-controls--command-reference)
-- [Gameplay Walkthrough & Strategy](#-gameplay-walkthrough--strategy)
-- [Under the Hood: Logic Architecture](#-under-the-hood-logic-architecture)
-- [Project Structure](#-project-structure)
-- [Author & Credits](#-author--credits)
+- [Overview](#overview)
+- [Key Features](#key-features)
+- [Dungeon Map](#dungeon-map)
+- [Prerequisites & Installation](#prerequisites--installation)
+- [How to Run the Game](#how-to-run-the-game)
+- [Controls & Command Reference](#controls--command-reference)
+- [Gameplay Walkthrough & Strategy](#gameplay-walkthrough--strategy)
+- [Under the Hood: Logic Architecture](#under-the-hood-logic-architecture)
+- [Project Structure](#project-structure)
 
 ---
 
-## 🌟 Overview
+## Overview
 
 In **The Dragon Slayer**, you enter a treacherous dungeon with a single goal: defeat the terrifying **Boss Dragon** lurking in the obsidian Throne Room and claim the realm's treasure. 
 
@@ -37,7 +36,7 @@ Along your quest, you must:
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - **Declarative Dynamic World State**: Tracks player location, item placements, monster health, and quest flags dynamically via `assertz/1` and `retract/1`.
 - **Gated Progression & Lock Puzzles**: Dynamic rule checks (`check_lock/1`) prevent players from entering guarded or locked sectors (like the Throne Room) without required quest items (`iron_key`).
@@ -50,7 +49,7 @@ Along your quest, you must:
 
 ---
 
-## 🗺️ Dungeon Map
+## Dungeon Map
 
 ```
                      +---------------------------+
@@ -75,7 +74,7 @@ Along your quest, you must:
 
 ---
 
-## 💻 Prerequisites & Installation
+## Prerequisites & Installation
 
 To run this game, you need **SWI-Prolog** installed on your system.
 
@@ -98,7 +97,7 @@ To run this game, you need **SWI-Prolog** installed on your system.
 
 ---
 
-## 🚀 How to Run the Game
+## How to Run the Game
 
 ### Clone the Repository
 ```bash
@@ -124,7 +123,7 @@ swipl -s dragon_slayer.pl -g "init."
 
 ---
 
-## 🎮 Controls & Command Reference
+## Controls & Command Reference
 
 > **Note:** In Prolog syntax, all commands must conclude with a period (`.`) followed by pressing <kbd>Enter</kbd>.
 
@@ -145,7 +144,7 @@ swipl -s dragon_slayer.pl -g "init."
 
 ---
 
-## ⚔️ Gameplay Walkthrough & Strategy
+## Gameplay Walkthrough & Strategy
 
 For an optimal playthrough without succumbing to the dungeon's horrors:
 
@@ -175,7 +174,7 @@ For an optimal playthrough without succumbing to the dungeon's horrors:
 
 ---
 
-## 🧠 Under the Hood: Logic Architecture
+## Under the Hood: Logic Architecture
 
 The game engine is built on fundamental Prolog concepts:
 
@@ -195,16 +194,10 @@ The game engine is built on fundamental Prolog concepts:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 Dynamic-Game-Content-Using-Prolog/
 ├── dragon_slayer.pl     # Core game logic, knowledge base, rules & mechanics
 └── README.md            # Comprehensive documentation, setup guide & walkthrough
 ```
-
----
-
-## 👤 Author
-
-- **Tarugu Dhanush Kumar Reddy** ([@Dhanushrdy](https://github.com/Dhanushrdy))
